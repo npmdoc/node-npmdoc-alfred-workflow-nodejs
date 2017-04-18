@@ -1,0 +1,73 @@
+<svg height="1118" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="1118" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">8 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">└─┬ alfred-workflow-nodejs@2.0.1 </tspan>
+<tspan x="10" y="90">  ├── fuzzy@0.1.3 </tspan>
+<tspan x="10" y="106">  ├── keychain@0.0.4 </tspan>
+<tspan x="10" y="122">  ├─┬ node-osascript@1.0.4 </tspan>
+<tspan x="10" y="138">  │ └── buffers@0.1.1 </tspan>
+<tspan x="10" y="154">  ├─┬ node-persist@0.0.11 </tspan>
+<tspan x="10" y="170">  │ ├─┬ mkdirp@0.5.1 </tspan>
+<tspan x="10" y="186">  │ │ └── minimist@0.0.8 </tspan>
+<tspan x="10" y="202">  │ └── q@1.1.2 </tspan>
+<tspan x="10" y="218">  ├─┬ request@2.81.0 </tspan>
+<tspan x="10" y="234">  │ ├── aws-sign2@0.6.0 </tspan>
+<tspan x="10" y="250">  │ ├── aws4@1.6.0 </tspan>
+<tspan x="10" y="266">  │ ├── caseless@0.12.0 </tspan>
+<tspan x="10" y="282">  │ ├─┬ combined-stream@1.0.5 </tspan>
+<tspan x="10" y="298">  │ │ └── delayed-stream@1.0.0 </tspan>
+<tspan x="10" y="314">  │ ├── extend@3.0.0 </tspan>
+<tspan x="10" y="330">  │ ├── forever-agent@0.6.1 </tspan>
+<tspan x="10" y="346">  │ ├─┬ form-data@2.1.4 </tspan>
+<tspan x="10" y="362">  │ │ └── asynckit@0.4.0 </tspan>
+<tspan x="10" y="378">  │ ├─┬ har-validator@4.2.1 </tspan>
+<tspan x="10" y="394">  │ │ ├─┬ ajv@4.11.7 </tspan>
+<tspan x="10" y="410">  │ │ │ ├── co@4.6.0 </tspan>
+<tspan x="10" y="426">  │ │ │ └─┬ json-stable-stringify@1.0.1 </tspan>
+<tspan x="10" y="442">  │ │ │   └── jsonify@0.0.0 </tspan>
+<tspan x="10" y="458">  │ │ └── har-schema@1.0.5 </tspan>
+<tspan x="10" y="474">  │ ├─┬ hawk@3.1.3 </tspan>
+<tspan x="10" y="490">  │ │ ├── boom@2.10.1 </tspan>
+<tspan x="10" y="506">  │ │ ├── cryptiles@2.0.5 </tspan>
+<tspan x="10" y="522">  │ │ ├── hoek@2.16.3 </tspan>
+<tspan x="10" y="538">  │ │ └── sntp@1.0.9 </tspan>
+<tspan x="10" y="554">  │ ├─┬ http-signature@1.1.1 </tspan>
+<tspan x="10" y="570">  │ │ ├── assert-plus@0.2.0 </tspan>
+<tspan x="10" y="586">  │ │ ├─┬ jsprim@1.4.0 </tspan>
+<tspan x="10" y="602">  │ │ │ ├── assert-plus@1.0.0 </tspan>
+<tspan x="10" y="618">  │ │ │ ├── extsprintf@1.0.2 </tspan>
+<tspan x="10" y="634">  │ │ │ ├── json-schema@0.2.3 </tspan>
+<tspan x="10" y="650">  │ │ │ └── verror@1.3.6 </tspan>
+<tspan x="10" y="666">  │ │ └─┬ sshpk@1.13.0 </tspan>
+<tspan x="10" y="682">  │ │   ├── asn1@0.2.3 </tspan>
+<tspan x="10" y="698">  │ │   ├── assert-plus@1.0.0 </tspan>
+<tspan x="10" y="714">  │ │   ├── bcrypt-pbkdf@1.0.1 </tspan>
+<tspan x="10" y="730">  │ │   ├─┬ dashdash@1.14.1 </tspan>
+<tspan x="10" y="746">  │ │   │ └── assert-plus@1.0.0 </tspan>
+<tspan x="10" y="762">  │ │   ├── ecc-jsbn@0.1.1 </tspan>
+<tspan x="10" y="778">  │ │   ├─┬ getpass@0.1.6 </tspan>
+<tspan x="10" y="794">  │ │   │ └── assert-plus@1.0.0 </tspan>
+<tspan x="10" y="810">  │ │   ├── jodid25519@1.0.2 </tspan>
+<tspan x="10" y="826">  │ │   ├── jsbn@0.1.1 </tspan>
+<tspan x="10" y="842">  │ │   └── tweetnacl@0.14.5 </tspan>
+<tspan x="10" y="858">  │ ├── is-typedarray@1.0.0 </tspan>
+<tspan x="10" y="874">  │ ├── isstream@0.1.2 </tspan>
+<tspan x="10" y="890">  │ ├── json-stringify-safe@5.0.1 </tspan>
+<tspan x="10" y="906">  │ ├─┬ mime-types@2.1.15 </tspan>
+<tspan x="10" y="922">  │ │ └── mime-db@1.27.0 </tspan>
+<tspan x="10" y="938">  │ ├── oauth-sign@0.8.2 </tspan>
+<tspan x="10" y="954">  │ ├── performance-now@0.2.0 </tspan>
+<tspan x="10" y="970">  │ ├── qs@6.4.0 </tspan>
+<tspan x="10" y="986">  │ ├── safe-buffer@5.0.1 </tspan>
+<tspan x="10" y="1002">  │ ├── stringstream@0.0.5 </tspan>
+<tspan x="10" y="1018">  │ ├─┬ tough-cookie@2.3.2 </tspan>
+<tspan x="10" y="1034">  │ │ └── punycode@1.4.1 </tspan>
+<tspan x="10" y="1050">  │ ├── tunnel-agent@0.6.0 </tspan>
+<tspan x="10" y="1066">  │ └── uuid@3.0.1 </tspan>
+<tspan x="10" y="1082">  ├── underscore@1.8.3 </tspan>
+<tspan x="10" y="1098">  └── xmlbuilder@8.2.2</tspan>
+</text>
+</svg>
