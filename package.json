@@ -1,1 +1,39 @@
-{     "devDependencies": {         "alfred-workflow-nodejs": "*",         "electron-lite": "kaizhu256/node-electron-lite#alpha",         "utility2": "kaizhu256/node-utility2#alpha"     },     "name":"npmdoc-alfred-workflow-nodejs",     "homepage": "https://github.com/npmdoc/node-npmdoc-alfred-workflow-nodejs",     "repository": {         "type": "git",         "url": "https://github.com/npmdoc/node-npmdoc-alfred-workflow-nodejs.git"     },     "scripts": {         "build-ci": "utility2 shReadmeTest build_ci.sh"     },     "version": "0.0.1" }
+{
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "description": "#### api documentation for  [alfred-workflow-nodejs (v2.0.1)](https://github.com/giangvo/alfred-workflow-nodejs#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-alfred-workflow-nodejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-alfred-workflow-nodejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-alfred-workflow-nodejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-alfred-workflow-nodejs)",
+    "devDependencies": {
+        "alfred-workflow-nodejs": "*",
+        "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "utility2": "kaizhu256/node-utility2#alpha"
+    },
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-alfred-workflow-nodejs",
+    "keywords": [
+        "documentation",
+        "alfred-workflow-nodejs"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_alfred_workflow_nodejs.js",
+    "name": "npmdoc-alfred-workflow-nodejs",
+    "nameAlias": "npmdoc_alfred_workflow_nodejs",
+    "nameOriginal": "npmdoc-alfred-workflow-nodejs",
+    "os": [
+        "darwin",
+        "linux"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/npmdoc/node-npmdoc-alfred-workflow-nodejs.git"
+    },
+    "scripts": {
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "npm install \"kaizhu256/node-utility2#alpha\" && utility2 shDeployHeroku",
+        "postinstall": "[ ! -f npm_scripts.sh ] || ./npm_scripts.sh postinstall",
+        "start": "PORT=${PORT:-8080} utility2 start test.js",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
+    },
+    "version": "0.0.1"
+}
