@@ -1,6 +1,6 @@
 # npmdoc-alfred-workflow-nodejs
 
-#### api documentation for  [alfred-workflow-nodejs (v2.0.1)](https://github.com/giangvo/alfred-workflow-nodejs#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-alfred-workflow-nodejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-alfred-workflow-nodejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-alfred-workflow-nodejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-alfred-workflow-nodejs)
+#### basic api documentation for  [alfred-workflow-nodejs (v2.0.1)](https://github.com/giangvo/alfred-workflow-nodejs#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-alfred-workflow-nodejs.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-alfred-workflow-nodejs) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-alfred-workflow-nodejs.svg)](https://travis-ci.org/npmdoc/node-npmdoc-alfred-workflow-nodejs)
 
 #### Alfred workflow nodejs module
 
@@ -69,7 +69,8 @@
     "scripts": {
         "test": "mocha --ui tdd"
     },
-    "version": "2.0.1"
+    "version": "2.0.1",
+    "bin": {}
 }
 ```
 
